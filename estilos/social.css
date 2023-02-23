@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        img {
+            width: 100vw;
+
+        }
+        a {
+            display: block;
+            background-color: darkred;
+            color: white;
+            padding: 30px;text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+
+        }
+        a:hover {
+            background-color: red;
+        }
+        a#botao-git {
+            display: block;
+            background-color: rgb(1, 75, 1);
+            color: white;
+            padding: 30px;text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a#botao-git:hover {
+            background-color: green;
+        }
+
+        a#botao-insta {
+            display: block;
+            background-color: rgb(84, 0, 84);
+            color: white;
+            padding: 30px;text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a#botao-insta:hover {
+
+            background-color: darkmagenta;
+        }
+        a#botao-tw {
+            display: block;
+            background-color: #00acee ;
+            color: white;
+            padding: 30px; text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a#botao-tw:hover {
+
+            background-color: #0289be;
+        }
+        a#botao-face {
+            display: block;
+            background-color: #3b5998 ;
+            color: white;
+            padding: 30px; text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        a#botao-face:hover {
+
+            background-color: #5680da;
+        }
